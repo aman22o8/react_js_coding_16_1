@@ -1,0 +1,101 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.items_list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.comment_heading_container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.comment_heading {
+  font-size: 13px;
+  color: #ffffff;
+  font-family: 'roboto';
+  border-radius: 15px;
+  border-style: none;
+  border-width: 0px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+.comment_main_heading {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #334155;
+  font-family: 'roboto';
+  align-self: flex-start;
+  font-weight: 600;
+}
+.date {
+  padding-left: 10px;
+  color: #94a3b8;
+  font-size: 13px;
+  align-self: flex-start;
+}
+.para_comment {
+  padding-left: 40px;
+  font-size: 13px;
+  color: #64748b;
+  font-family: 'roboto';
+}
+.comment_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.button_like {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #0284c7;
+  font-family: 'roboto';
+  padding-left: 10px;
+}
+.unlike {
+  color: #7e858e;
+}
+.button_delete {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+}
+.separator_comment {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee0e3;
+  padding-left: 0px;
+  margin-top: 10px;
+}
